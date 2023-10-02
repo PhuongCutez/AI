@@ -1,15 +1,15 @@
 package chapter2.agent_ABCD; 
 
-public class Percept {
+public class PerceptABCD {
 	private String agentLocation;
-	private Environment.LocationState state;
+	private EnvironmentABCD.LocationState state;
 
-	public Percept(String agentLocation, Environment.LocationState state) {
+	public PerceptABCD(String agentLocation, EnvironmentABCD.LocationState state) {
 		this.agentLocation = agentLocation;
 		this.state = state;
 	}
 
-	public Environment.LocationState getLocationState() {
+	public EnvironmentABCD.LocationState getLocationState() {
 		return this.state;
 	}
 

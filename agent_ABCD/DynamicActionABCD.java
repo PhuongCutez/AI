@@ -1,9 +1,9 @@
 package chapter2.agent_ABCD;
 
-public class DynamicAction extends Action {
+public class DynamicActionABCD extends ActionABCD {
 	private String name;
 
-	public DynamicAction(String name) {
+	public DynamicActionABCD(String name) {
 		this.name = name;
 	}
 
